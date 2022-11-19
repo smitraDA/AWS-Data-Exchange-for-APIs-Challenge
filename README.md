@@ -77,7 +77,7 @@ Now you can press Send and you should see a response with rating and vote values
 
 ##Training, Tesing and Applying the Model"Million Dollar Movie Classifier"
 
-Objective:"Million dollar earning probability prediction" of a Movie by Multivariate Qadratic Classifier(Naive Bays Probabilistic Method).
+Objective:"Million dollar earning probability prediction" of a Movie by Naive Bays Classifier.
 
 1.Importing Dataset( Billio_data and BillionLess data)and cleaning NAN value.
 2.Importing Merge data after auditing
