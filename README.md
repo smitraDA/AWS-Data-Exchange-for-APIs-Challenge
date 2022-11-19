@@ -72,3 +72,33 @@ These 3 Ids are getting from IMDB API view tab after subscribe to IMDB through A
 ![image](https://user-images.githubusercontent.com/52241389/202828749-fad6a676-8817-467c-ae00-d93738219077.png)
 
 Now you can press Send and you should see a response with rating and vote values.
+
+
+
+##Training the Model"Million Dollar Movie Classifier"
+
+Objective:To predict the likelihood of a movie to be earning Million dollar or Not.
+
+1.Importing Dataset( Billio_data and BillionLess data)and cleaning NAN value.
+2.Importing Merge data after auditing
+![image](https://user-images.githubusercontent.com/52241389/202829643-c4aca99d-d542-4e91-a0f1-47ba17f3fd12.png)
+
+3.Splitting data into train and test as 80:20 also sorting data class wise for at some next step use.
+![image](https://user-images.githubusercontent.com/52241389/202829716-2824f5c6-d4fc-48d6-b449-8a4d2a9afa56.png)
+
+4.Traing model(pred) with Naive Bays Binary Classifier having threshold as 0.5.
+![image](https://user-images.githubusercontent.com/52241389/202829817-16536287-e272-4532-ba70-eb72f88d5aea.png)
+
+5.Calculating train error
+![image](https://user-images.githubusercontent.com/52241389/202829831-0a5467d9-a417-452a-8b8d-98d94062c04f.png)
+
+6.Testing The model
+![image](https://user-images.githubusercontent.com/52241389/202829846-31c35678-5d94-4dc0-83d1-706e516cfa7c.png)
+
+7.Calculating Testing error
+![image](https://user-images.githubusercontent.com/52241389/202829856-a6c0a6b7-703c-4549-ba2a-05788724fbf6.png)
+
+8.Getting the output with user data.
+![image](https://user-images.githubusercontent.com/52241389/202829862-de347dad-623f-40a9-a450-8b7dbd5db90a.png)
+
+
