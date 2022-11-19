@@ -75,7 +75,7 @@ Now you can press Send and you should see a response with rating and vote values
 
 
 
-##Training andt Tesing the Model"Million Dollar Movie Classifier"
+##Training, Tesing and Applying the Model"Million Dollar Movie Classifier"
 
 Objective:To predict the likelihood of a movie to be earning Million dollar or Not.
 
