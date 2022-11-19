@@ -1,0 +1,43 @@
+{
+  title(id: "tt7286456") {
+    titleText {
+      text
+    }
+    ratingsSummary {
+      aggregateRating
+      voteCount
+    }
+  }
+}
+
+
+https://developer.imdb.com/documentation/api-documentation/sample-queries/title-name
+
+
+
+
+####Using movie name finding rating and votes
+
+{
+  mainSearch(
+    first: 10
+    options: {searchTerm: "The Matrix", titleSearchOptions: {type: MOVIE}, type: TITLE, isExactMatch: true}
+  ) {
+    edges {
+      node {
+        id
+        entity {
+          ... on Title {
+            titleText {
+              text
+            }
+            ratingsSummary {
+              aggregateRating
+              voteCount
+            }
+          }
+        }
+      }
+    }
+  }
+}
